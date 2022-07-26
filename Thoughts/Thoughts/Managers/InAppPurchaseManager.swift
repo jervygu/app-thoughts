@@ -6,3 +6,24 @@
 //
 
 import Foundation
+import Purchases
+
+final class InAppPurchaseManager {
+    static let shared = InAppPurchaseManager()
+    
+    private init () {}
+    
+    func isPremium() {
+        
+    }
+    
+    func subscribe() {
+        
+    }
+    
+    func restorePurchases() {
+        
+    }
+}
+
+
